@@ -47,6 +47,7 @@ export const AreaCard = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border: 1px solid var(--ColorGray);
 
     @media screen and (min-width: 320px) and (max-width: 350px){
        width: 100%;
@@ -122,7 +123,7 @@ export const Image = styled.img`
     height: 330px;
     border-radius: 10px 0px 0px 10px;
     object-fit: cover;
-    
+    padding: 2px;
     
     @media screen and (min-width: 320px) and (max-width: 350px){
         display: none;
