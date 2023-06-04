@@ -1,0 +1,34 @@
+@media only screen and (max-width: 900px) {
+    .swiper-button-prev {
+        display: none!important;
+    }
+
+    .swiper-button-next {
+        display: none!important;
+    }
+}
+
+
+.swiper-slide {
+    display: flex!important;
+    justify-content: center!important;
+
+    
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--ColorPrimary)!important;
+    
+}
+
+.swiper-button-prev {
+    color: var(--ColorGray)!important;
+    display: block;
+}
+
+.swiper-button-next {
+    color: var(--ColorGray)!important;
+}
+
+
+
